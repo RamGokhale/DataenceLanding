@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <>
     <Navbar />
-      <Landing />
-      <Crousel />
-      <KeyFeature />
+      {/* <Landing />
+      <Crousel /> */}
+      {/* <KeyFeature /> */}
       <AboutUs />
-      <MediaCoverge />
+      {/* <MediaCoverge />
       <Location />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
