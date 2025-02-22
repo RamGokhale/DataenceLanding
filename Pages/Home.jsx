@@ -18,9 +18,9 @@ const Home = () => {
       <Products />
       <KeyFeature />
       <AboutUs />
-      {/* <MediaCoverge />
+      <MediaCoverge />
       <Location />
-      <Footer /> */}
+      <Footer /> 
     </>
   )
 }
