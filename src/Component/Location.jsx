@@ -1,0 +1,123 @@
+import React from "react";
+import insta from "../assets/insta.png";
+import Email from "../assets/Email.png";
+
+const Location = () => {
+  return (
+    <div className="container mx-auto px-6 mb-40">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        {/* Left Section (Cards) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+          {/* Email */}
+          <div className="bg-red-100 p-6 rounded-2xl text-center shadow-md">
+            <img src={Email} alt="Email" className="mx-auto w-10 mb-2" />
+            <h3 className="text-lg font-semibold">Email</h3>
+            <p className="text-gray-600">datascitech@gmail.com</p>
+          </div>
+
+          {/* Instagram */}
+          <div className="bg-pink-100 p-6 rounded-2xl text-center shadow-md">
+            <img src={insta} alt="Instagram" className="mx-auto w-10 mb-2" />
+            <h3 className="text-lg font-semibold">Instagram</h3>
+            <p className="text-gray-600">datascitech@gmail.com</p>
+          </div>
+
+          {/* LinkedIn */}
+          <div className="bg-blue-100 p-6 rounded-2xl text-center shadow-md">
+            <img src={insta} alt="LinkedIn" className="mx-auto w-10 mb-2" />
+            <h3 className="text-lg font-semibold">LinkedIn</h3>
+            <p className="text-gray-600">Datascitech Technology</p>
+          </div>
+
+          {/* Phone */}
+          <div className="bg-green-100 p-6 rounded-2xl text-center shadow-md">
+            <img src={insta} alt="Phone" className="mx-auto w-10 mb-2" />
+            <h3 className="text-lg font-semibold">Phone</h3>
+            <p className="text-gray-600">+91 9876543210</p>
+          </div>
+
+          <div className="rounded-3xl overflow-hidden w-[37rem]  ">
+            <iframe
+              className="w-full h-64"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093747!2d144.953736315639!3d-37.8162797420214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e33!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1638983417555!5m2!1sen!2sin"
+              allowFullScreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        {/* Right Section (Form + Map) */}
+        <div className="w-full max-w-2xl">
+          <h2 className="text-2xl font-[poppins] font-semibold mb-3">
+            Get In Touch
+          </h2>
+          <p className="text-[#787878] font-normal py-7">
+            We’d love to hear from you! Whether it’s a question, <br />{" "}
+            feedback, or just to connect, reach out and we’ll get <br /> back to
+            you as soon as possible..
+          </p>
+
+          {/* Form */}
+          <form className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Name Field */}
+              <div className="flex flex-col">
+                <label className="text-[#000000] font-medium py-3">
+                  Name <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  className="border-none  p-3 rounded-md w-full bg-blue-50 outline-none"
+                />
+              </div>
+
+              {/* Email Address Field */}
+              <div className="flex flex-col">
+                <label className="text-[#000000] font-medium py-3 ">
+                  Email Address <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  className="border-none  p-3 rounded-md w-full bg-blue-50 outline-none font-normal text-[#78787880]"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="text-[#000000] font-medium py-3 ">
+                  Mobile Number <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  placeholder="Enter your Mobile Number"
+                  className="border-none  p-3 rounded-md w-full bg-blue-50 outline-none font-normal text-[#78787880]"
+                />
+              </div>
+            </div>
+           
+           <div className="flex flex-col">
+           <label className="text-[#000000] font-medium mb-7 ">
+              Your suggestions and feedbacks*{" "}
+              <span className="text-red-500">*</span>
+            </label>
+
+            <textarea
+              placeholder="Your suggestions and feedbacks*"
+              className="border-none outline-none py-8 rounded-md w-full h-32 bg-blue-50"
+            ></textarea>
+           </div>
+            
+            <button className="bg-gray-900 text-white py-3 px-6 rounded-md hover:bg-gray-700">
+              Send Message
+            </button>
+          </form>
+
+          {/* Map Section */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Location;
