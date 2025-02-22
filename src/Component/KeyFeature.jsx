@@ -2,6 +2,15 @@ const KeyFeature = () =>{
     return (
 
         <>
+        <div className="flex flex-col justify-center items-center mt-8">
+        <h1 className="font-[poppins]  font-medium text-[#253E52] text-2xl text-center ">
+          Key Features
+        </h1>
+        <p className="font-light text-xl text-center py-1.5 text-[#787878]">
+          Discover Key Features Designed to Save Time, Cut Costs, and Drive
+          Growth
+        </p>
+      </div>
 <div className="flex justify-center items-center gap-x-20 px-20 mt-20">
   {/* Card 1 */}
   <div className=" xl:w-[280px] xl:h-[268px] lg:w-[440px] lg:h-[300px]  bg-[#ff7e8b41] rounded-2xl p-8 flex flex-col items-center  ">
