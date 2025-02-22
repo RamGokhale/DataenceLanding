@@ -1,15 +1,16 @@
 import React from 'react'
 import card from "../assets/card.png";
+import scripta from "../assets/scripta.png";
 
 
 const Products = () => {
   return (
-    <div>
+    <div className='mb-32'>
        <div className="flex flex-col justify-center items-center py-12  mb-8">
-        <div className=" font-[poppins] font-medium text-2xl  text-center text-[#253E52] py-9">
+        <div className=" font-[poppins] font-semibold text-2xl  text-center text-[#253E52] pt-10 pb-3">
           Explore Our Digital Products
         </div>
-        <p className="text-center font-light font-[poppins] text-[#787878] text-xl">
+        <p className="text-center font-light font-[poppins] text-[#787878] text-sm">
           Discover our cutting-edge apps and websites designed to enhance your
           productivity and simplify your digital life.
         </p>
@@ -17,8 +18,9 @@ const Products = () => {
 
       {/* card section */}
 
-      <div className="bg-white flex flex-wrap justify-center gap-x-48   ">
-        {/* Card 1 */}
+      <div className="bg-white flex flex-wrap justify-center items-center gap-x-48   ">
+       <div className='flex flex-col items-center gap-y-8'>
+         {/* Card 1 */}
         <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center w-80 h-[400px]">
           {/* Dark Top Border */}
           <div className="absolute top-0 left-0 w-full h-4 bg-gray-900 rounded-t-2xl"></div>
@@ -37,14 +39,19 @@ const Products = () => {
             reporting.
           </p>
         </div>
-        {/* Card 2 */}
+        <button className="bg-gray-900 text-white py-3 px-8 rounded-md hover:bg-gray-700">
+          Explore Abyd
+        </button>
+       </div>
+       <div className='flex flex-col items-center gap-y-8'>
+         {/* Card 2 */}
         <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center w-80 h-[400px]">
           {/* Dark Top Border */}
           <div className="absolute top-0 left-0 w-full h-4 bg-gray-900 rounded-t-2xl"></div>
 
           <div className="flex justify-center mb-6 mt-6">
             <img
-              src={card}
+              src={scripta}
               alt="Scripta"
               className="w-70 h-40 object-contain rounded-lg"
             />
@@ -56,16 +63,10 @@ const Products = () => {
             opinion reports with ease.
           </p>
         </div>
-      </div>
-
-      {/* Buttons */}
-      <div className="flex justify-center iteam center gap-x-72 p-6">
-        <button className="bg-gray-900 text-white py-3 px-8 rounded-md hover:bg-gray-700">
-          Explore Abyd
-        </button>
-        <button className="bg-gray-900 text-white py-3 px-8 rounded-md hover:bg-gray-700">
+         <button className="bg-gray-900 text-white py-3 px-8 rounded-md hover:bg-gray-700">
           Explore Scripta
         </button>
+       </div>
       </div>
 
     </div>

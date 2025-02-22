@@ -7,14 +7,16 @@ import AboutUs from '../src/Component/AboutUs'
 import MediaCoverge from '../src/Component/MediaCoverge'
 import Location from '../src/Component/Location'
 import Footer from '../src/Component/Footer'
+import Products from '../src/Component/Products'
 
 const Home = () => {
   return (
     <>
     <Navbar />
-      {/* <Landing />
-      <Crousel /> */}
-      {/* <KeyFeature /> */}
+      <Landing />
+      <Crousel />
+      <Products />
+      <KeyFeature />
       <AboutUs />
       {/* <MediaCoverge />
       <Location />

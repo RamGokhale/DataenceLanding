@@ -7,8 +7,8 @@ const MediaCoverge = () =>{
         
     <div className="w-full flex flex-col items-center py-24">
   {/* Section Title with Dotted Line */}
-  <div className="relative flex flex-col items-center py-5">
-    <h2 className="text-center text-lg font-semibold text-[#253E52] ">Media & Coverage</h2>
+  <div className=" flex flex-col items-center py-5">
+    <h2 className="text-center text-xl font-semibold text-[#253E52]/80 tracking-wide ">Media & Coverage</h2>
   </div>
 
   {/* Image Section with Rounded Borders */}
@@ -18,7 +18,7 @@ const MediaCoverge = () =>{
 
   {/* Description Section */}
   <div className="w-full bg-[#D9D9D933] py-40 px-44 rounded-xl text-left relative bottom-36">
-    <h2 className="text-[#E3501F] font-semibold text-lg"> 
+    <h2 className="text-[#E3501F] font-semibold text-lg my-5 mb-8"> 
       Datence Technologies recognised by DD News at IMC 2024 while presenting ABYD
     </h2>
     <p className="font-light text-gray-600 mt-4">
