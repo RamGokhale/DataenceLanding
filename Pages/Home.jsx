@@ -2,25 +2,22 @@ import React from 'react'
 import Landing from '../src/Component/Landing'
 import Crousel from '../src/Component/Crousel'
 import KeyFeature from '../src/Component/KeyFeature'
-import Navbar from '../src/Component/Navbar'
 import AboutUs from '../src/Component/AboutUs'
 import MediaCoverge from '../src/Component/MediaCoverge'
 import Location from '../src/Component/Location'
-import Footer from '../src/Component/Footer'
 import Products from '../src/Component/Products'
 
 const Home = () => {
   return (
     <>
-    <Navbar />
+    
       <Landing /> 
-       {/* <Crousel /> 
+        <Crousel /> 
        <Products />
       <KeyFeature />
-      <AboutUs /> */}
+      <AboutUs /> 
       <MediaCoverge />
-      {/* <Location />
-      <Footer />   */}
+       <Location />
     </>
   )
 }

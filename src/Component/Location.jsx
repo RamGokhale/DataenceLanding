@@ -10,10 +10,10 @@ const Location = () => {
   const [isOpen, setisOpen] = useState(false);
 
   return (
-    <div className="container mx-auto px-6 mb-40">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+    <div className="container mx-auto px-6 mb-40 w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start w-11/12 mx-auto">
         {/* Left Section (Cards) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full lg:order-1 order-2 ">
           {/* Email */}
           <div className="bg-red-100 p-6 py-10 rounded-2xl text-center shadow-md">
             <img src={Email} alt="Email" className="mx-auto w-14 mb-2" />
@@ -42,9 +42,9 @@ const Location = () => {
             <p className="text-gray-600">+91 9876543210</p>
           </div>
 
-          <div className="rounded-4xl overflow-hidden w-[37rem]  ">
+          <div className="rounded-4xl overflow-hidden xl:w-[33rem] lg:w-[26rem]  ">
             <iframe
-              className="w-full h-[17rem]"
+              className="w-full h-[16.8rem]"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093747!2d144.953736315639!3d-37.8162797420214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e33!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1638983417555!5m2!1sen!2sin"
               allowFullScreen=""
               loading="lazy"
@@ -53,13 +53,13 @@ const Location = () => {
         </div>
 
         {/* Right Section (Form + Map) */}
-        <div className="w-full max-w-2xl">
-          <h2 className="text-2xl font-[poppins] font-semibold mb-3">
+        <div className="w-full max-w-2xl flex flex-col lg:order-2 order-1 ">
+          <h2 className="text-2xl font-[poppins] font-semibold mb-3 md:text-left text-center">
             Get In Touch
           </h2>
-          <p className="text-[#787878] font-normal py-7">
-            We’d love to hear from you! Whether it’s a question, <br />{" "}
-            feedback, or just to connect, reach out and we’ll get <br /> back to
+          <p className="text-[#787878] font-normal py-7 md:text-left text-center">
+            We’d love to hear from you! Whether it’s a question, <br className="hidden sm:block"/>{" "}
+            feedback, or just to connect, reach out and we’ll get <br className="hidden sm:block" /> back to
             you as soon as possible..
           </p>
 
@@ -86,7 +86,7 @@ const Location = () => {
                 <input
                   type="email"
                   placeholder="Enter your email address"
-                  className="border-none  p-3 rounded-md w-full bg-blue-50 outline-none font-normal text-[#78787880]"
+                  className="border-none  p-3 rounded-md w-full bg-blue-50 outline-none font-normal "
                 />
               </div>
 
@@ -97,19 +97,19 @@ const Location = () => {
                 <input
                   type="email"
                   placeholder="Enter your Mobile Number"
-                  className="border-none  p-3 rounded-md w-full bg-blue-50 outline-none font-normal text-[#78787880]"
+                  className="border-none  p-3 rounded-md w-full bg-blue-50 outline-none font-normal "
                 />
               </div>
             </div>
            
-           <div className="flex flex-col">
+           <div className="flex flex-col mt-8">
            <label className="text-[#000000] font-medium mb-7 ">
-              Your suggestions and feedbacks*{" "}
+              Your suggestions and feedbacks{" "}
               <span className="text-red-500">*</span>
             </label>
 
             <textarea
-              placeholder="Your suggestions and feedbacks*"
+              placeholder="Your suggestions and feedbacks"
               className="border-none outline-none p-4 rounded-md w-full h-36 bg-blue-50"
             ></textarea>
            </div>

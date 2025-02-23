@@ -18,8 +18,9 @@ const Products = () => {
 
       {/* card section */}
 
-      <div className="bg-white flex justify-center items-center  lg:gap-x-48 md:gap-x-10 sm:gap-x-4   ">
-       <div className='flex flex-col items-center gap-y-8 py-3'>
+      <div className='w-full bg-white'>
+        <div className="w-10/12 mx-auto flex flex-col md:flex-row justify-center items-center  lg:gap-x-48 md:gap-x-10 sm:gap-x-4   ">
+       <div className='flex flex-col items-center gap-y-8 py-3 md:mb-0 mb-10 '>
          {/* Card 1 */}
         <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center md:w-80 md:h-[400px] sm:w-70 sm:h-[350px] w-[60] h-[300px]">
           {/* Dark Top Border */}
@@ -29,7 +30,7 @@ const Products = () => {
             <img
               src={card}
               alt="Abyd"
-              className="md:w-70 md:h-40 sm:w-60 sm:h-30  w-60 h-20 object-contain rounded-lg"
+              className="md:w-70 md:h-40 sm:w-60 sm:h-30  w-40 object-contain rounded-lg"
             />
           </div>
 
@@ -43,7 +44,7 @@ const Products = () => {
           Explore Abyd
         </button>
        </div>
-       <div className='flex flex-col items-center gap-y-8'>
+       <div className='flex flex-col items-center gap-y-8 '>
          {/* Card 2 */}
         <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center md:w-80 md:h-[400px] sm:w-70 sm:h-[350px]  w-[60] h-[300px]">
           {/* Dark Top Border */}
@@ -53,7 +54,7 @@ const Products = () => {
             <img
               src={scripta}
               alt="Scripta"
-              className="md:w-70 md:h-40 sm:w-60 sm:h-30 w-60 h-20 object-contain rounded-lg"
+              className="md:w-70 md:h-40 sm:w-60 sm:h-30 w-30  object-contain rounded-lg"
             />
           </div>
 
@@ -67,6 +68,7 @@ const Products = () => {
           Explore Scripta
         </button>
        </div>
+      </div>
       </div>
 
     </div>

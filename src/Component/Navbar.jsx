@@ -12,7 +12,9 @@ const Navbar = ({  }) => {
       <div className="flex items-center justify-between">
         {/* Logo Section */}
         <div>
-          <img src={logo} alt="Logo" className="lg:w-48 md:w-40" />
+          <NavLink to='/'>
+            <img src={logo} alt="Logo" className="lg:w-48 md:w-40" />
+          </NavLink>
         </div>
 
         {/* Mobile Menu Toggle */}
