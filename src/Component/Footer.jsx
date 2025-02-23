@@ -7,9 +7,7 @@ import phone from "../assets/phone.png"
 
 const Footer = ()  =>{
     return (
-
-       <>
-       
+   <>
    <footer className="bg-black text-white py-10 px-20">
   <div className="container flex justify-between items-start">
     {/* Left Section - Logo & Description */}

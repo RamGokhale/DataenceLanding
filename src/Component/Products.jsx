@@ -10,7 +10,7 @@ const Products = () => {
         <div className=" font-[poppins] font-semibold text-2xl  text-center text-[#253E52] pt-10 pb-3">
           Explore Our Digital Products
         </div>
-        <p className="text-center font-light font-[poppins] text-[#787878] text-sm">
+        <p className="text-center font-light font-[poppins] text-[#787878] text-sm lg:w-full md:w-[35rem] sm:w-[30rem] w-[18rem] ">
           Discover our cutting-edge apps and websites designed to enhance your
           productivity and simplify your digital life.
         </p>
@@ -18,10 +18,10 @@ const Products = () => {
 
       {/* card section */}
 
-      <div className="bg-white flex flex-wrap justify-center items-center gap-x-48   ">
-       <div className='flex flex-col items-center gap-y-8'>
+      <div className="bg-white flex justify-center items-center  lg:gap-x-48 md:gap-x-10 sm:gap-x-4   ">
+       <div className='flex flex-col items-center gap-y-8 py-3'>
          {/* Card 1 */}
-        <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center w-80 h-[400px]">
+        <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center md:w-80 md:h-[400px] sm:w-70 sm:h-[350px] w-[60] h-[300px]">
           {/* Dark Top Border */}
           <div className="absolute top-0 left-0 w-full h-4 bg-gray-900 rounded-t-2xl"></div>
 
@@ -29,12 +29,12 @@ const Products = () => {
             <img
               src={card}
               alt="Abyd"
-              className="w-70 h-40 object-contain rounded-lg"
+              className="md:w-70 md:h-40 sm:w-60 sm:h-30  w-60 h-20 object-contain rounded-lg"
             />
           </div>
 
           <h3 className="text-lg font-semibold text-gray-900">Abyd</h3>
-          <p className="text-gray-600 mt-3 text-sm">
+          <p className="text-gray-600 mt-3 md:text-sm sm:text-[16px] ">
             A powerful trademark management tool that simplifies searching and
             reporting.
           </p>
@@ -45,7 +45,7 @@ const Products = () => {
        </div>
        <div className='flex flex-col items-center gap-y-8'>
          {/* Card 2 */}
-        <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center w-80 h-[400px]">
+        <div className="relative bg-white border border-gray-300 rounded-2xl shadow-lg text-center md:w-80 md:h-[400px] sm:w-70 sm:h-[350px]  w-[60] h-[300px]">
           {/* Dark Top Border */}
           <div className="absolute top-0 left-0 w-full h-4 bg-gray-900 rounded-t-2xl"></div>
 
@@ -53,12 +53,12 @@ const Products = () => {
             <img
               src={scripta}
               alt="Scripta"
-              className="w-70 h-40 object-contain rounded-lg"
+              className="md:w-70 md:h-40 sm:w-60 sm:h-30 w-60 h-20 object-contain rounded-lg"
             />
           </div>
 
           <h3 className="text-lg font-semibold text-gray-900">Scripta</h3>
-          <p className="text-gray-600 mt-3 text-sm">
+          <p className="text-gray-600 mt-3 md:text-sm sm:text-[16px]">
             Effortless trademark management—search trademarks and generate
             opinion reports with ease.
           </p>

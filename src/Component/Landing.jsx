@@ -9,7 +9,7 @@ const Landing = () => {
       <h1 className="text-[#253E52] font-bold text-[40px] leading-14 pb-7 tracking-wide">
         Accelerating Legal <br /> Innovation: Smarter <br /> Tools, Faster Outcomes
       </h1>
-      <p className="text-[#787878] text-[18px] font-light leading-[28px] pt-4">
+      <p className="text-[#787878] xl:text-[18px] font-light xl:leading-[28px] pt-4 lg:text-[2px]">
         Making legal processes faster and smarter with <br />
         technology. Simplify compliance, reduce <br />
         complexity, and stay ahead with Datence.
@@ -24,7 +24,7 @@ const Landing = () => {
     <div className="w-1/2 flex justify-end">
       <img
         src={header}
-        className="w-[150%] scale-150 relative bottom-10 left-20 h-auto object-cover rounded-2xl"
+        className="w-[150%] scale-150 relative bottom-2 left-20 h-auto object-cover rounded-2xl"
         alt="Header Image"
       />
     </div>

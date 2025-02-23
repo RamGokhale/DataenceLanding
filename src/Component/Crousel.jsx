@@ -16,7 +16,7 @@ const Crousel = () => {
         Supported By{" "}
       </div>
 
-      <div className="flex justify-between items-center px-20 py-12 bg-[#F7F7F799]">
+      <div className="flex justify-between items-center px-20 py-12 bg-[#F7F7F799] md:gap-3.5">
       <Swiper
           modules={[Autoplay, Pagination]} 
           spaceBetween={0} 
@@ -26,22 +26,22 @@ const Crousel = () => {
           className="mx-3"
         >
           <SwiperSlide>
-            <img src={a} className="w-32" />
+            <img src={a} className="lg:w-32 md:w-28" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={b} className="w-32" />
+            <img src={b} className="lg:w-32 md:w-28" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={c} className="w-32" />
+            <img src={c} className="lg:w-32 md:w-28" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={a} className="w-32" />
+            <img src={a} className="lg:w-32 md:w-28" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={b} className="w-32" />
+            <img src={b} className="lg:w-32 md:w-28" />
           </SwiperSlide>
         <SwiperSlide>
-            <img src={c} className="w-32" />
+            <img src={c} className="lg:w-32 md:w-28" />
           </SwiperSlide>
                     
         </Swiper>
@@ -53,3 +53,4 @@ const Crousel = () => {
 }
 
 export default Crousel
+
