@@ -14,13 +14,13 @@ const Home = () => {
     <>
     <Navbar />
       <Landing /> 
-       <Crousel /> 
+       {/* <Crousel /> 
        <Products />
       <KeyFeature />
-      <AboutUs />
+      <AboutUs /> */}
       <MediaCoverge />
-      <Location />
-      <Footer />  
+      {/* <Location />
+      <Footer />   */}
     </>
   )
 }

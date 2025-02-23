@@ -17,14 +17,14 @@ const MediaCoverge = () =>{
   </div>
 
   {/* Description Section */}
-  <div className="w-full bg-[#D9D9D933] py-40 px-44 rounded-xl text-left relative bottom-36">
-    <h2 className="text-[#E3501F] font-semibold text-lg my-5 mb-8"> 
+  <div className="w-full bg-[#D9D9D933] xl:py-40  xl:px-50 lg:px-39 md:px-28 md:py-34 lg:py-35   rounded-xl text-left relative bottom-36">
+    <h2 className="text-[#E3501F] font-semibold xl:text-lg lg:text-[15px] md:text-[13px]  my-5 mb-8"> 
       Datence Technologies recognised by DD News at IMC 2024 while presenting ABYD
     </h2>
-    <p className="font-light text-gray-600 mt-4">
+    <p className="font-light text-gray-600 mt-4 xl:text-xl lg:text-[12px]  md:text-[10px]">
       DD News covered Datence Technologies at India Mobile Congress 2024 held at Bharat Mandapam, New Delhi from 
-      <br /> October 27-October 29, 2024. Datence presented their advisory-first, aggregator legal service model for startups 
-      <br /> and small companies.
+      <br /> October 27-October 29, 2024. Datence presented their advisory-first, aggregator legal service model for startups and
+      <br />  small companies.
     </p>
   </div>
 </div>
