@@ -8,12 +8,12 @@ const Navbar = ({  }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white px-6 md:px-20 py-6 ">
+    <nav className="bg-white lg:px-20 py-6 md:px-12 sm:px-10 px-8 ">
       <div className="flex items-center justify-between">
         {/* Logo Section */}
-        <div>
+        <div className="">
           <NavLink to='/'>
-            <img src={logo} alt="Logo" className="lg:w-48 md:w-40" />
+            <img src={logo} alt="Logo" className="lg:w-48 md:w-46 sm:w-36" />
           </NavLink>
         </div>
 
@@ -25,7 +25,7 @@ const Navbar = ({  }) => {
         </div>
 
         {/* Navigation Links */}
-        <div className={`md:flex gap-4 md:gap-5 ${isOpen ? "block" : "hidden"} absolute md:relative top-16 md:top-0 left-0 md:left-auto w-full md:w-auto  md:bg-transparent shadow-md md:shadow-none p-6 md:p-0 ` }>
+        <div className={`md:flex gap-4  ${isOpen ? "block" : "hidden"} absolute md:relative top-16 md:top-0 left-0 md:left-auto w-full md:w-auto  md:bg-transparent shadow-md md:shadow-none p-6 md:p-0 ` }>
           {[
             { name: "Home", path: "/" },
             { name: "About us", path: "/about" },
@@ -54,3 +54,4 @@ const Navbar = ({  }) => {
 };
 
 export default Navbar;
+

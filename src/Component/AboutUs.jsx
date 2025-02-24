@@ -11,7 +11,7 @@ const AboutUs = () => {
       <h2 className="text-[#253E52] font-semibold text-3xl md:text-2xl lg:text-3xl text-center md:text-left pb-4">
         About Us
       </h2>
-      <p className="text-[#787878] font-light leading-relaxed text-sm md:text-[16px] lg:text-[17px] text-justify">
+      <p className="text-[#787878] lg:tracking-wide  font-light lg:leading-[28px] text-sm md:text-[11px] lg:text-[16.5px] text-justify">
         Welcome to Datence, your partner in simplifying compliance and 
         driving growth. With our expert-driven, AI-powered solutions, we 
         ensure your business stays legally compliant while unlocking tailored 
@@ -39,3 +39,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+

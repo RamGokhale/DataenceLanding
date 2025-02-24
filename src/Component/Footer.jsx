@@ -12,14 +12,14 @@ const Footer = ()  =>{
    <footer className="bg-black text-white py-10 md:px-20 px-6">
   <div className="container flex flex-col sm:flex-row justify-between items-start">
     {/* Left Section - Logo & Description */}
-    <div className="md:w-1/2 space-y-6 px-6">
-      <img src={logo} alt="Datence Technologies" className="w-48" />
-      <p className="text-gray-400 text-sm">
+    <div className="md:w-1/2  space-y-6 px-6">
+      <img src={logo} alt="Datence Technologies" className="lg:w-48 md:w-30" />
+      <p className="text-gray-400 xl:text-sm lg:text-[12px] md:text-[12px] text-[15px]">
         Datence simplifies compliance and fuels growth with expert-driven, <br className="hidden sm:block"/> AI-powered solutions. 
         From legal adherence to tailored strategies, <br className="hidden sm:block"/> we help your business scale effortlessly.
       </p>
       {/* Social Icons */}
-      <div className="flex space-x-12 mt-4">
+      <div className="flex md:space-x-12 mt-4 space-x-10">
         <img src={facebook} alt="Facebook" className="w-5 h-4 cursor-pointer" />
         <img src={instag} alt="Instagram" className="w-4 h-4 cursor-pointer" />
         <img src={message} alt="Email" className="w-4 h-4 cursor-pointer" />

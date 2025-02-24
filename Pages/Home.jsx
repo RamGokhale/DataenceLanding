@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
     
-      <Landing /> 
+       <Landing />  
         <Crousel /> 
        <Products />
       <KeyFeature />
