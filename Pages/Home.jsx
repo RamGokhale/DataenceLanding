@@ -12,12 +12,12 @@ const Home = () => {
     <>
     
        <Landing />  
-        <Crousel /> 
+         <Crousel /> 
        <Products />
       <KeyFeature />
       <AboutUs /> 
       <MediaCoverge />
-       <Location />
+       <Location /> 
     </>
   )
 }

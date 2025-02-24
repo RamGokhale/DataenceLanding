@@ -10,7 +10,7 @@ const Location = () => {
   const [isOpen, setisOpen] = useState(false);
 
   return (
-    <div className="container mx-auto px-6 mb-40 w-full">
+    <div id="contact" className="container mx-auto px-6 mb-40 w-full">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start w-11/12 mx-auto">
         {/* Left Section (Cards) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full lg:order-1 order-2 ">

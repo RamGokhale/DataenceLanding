@@ -3,7 +3,7 @@ import about from "../assets/about.png";
 const AboutUs = () => {
   return (
     <>
- <div className="w-full bg-[#a4d5f270] py-10 flex justify-center">
+ <div  id="about" className="w-full bg-[#a4d5f270] py-10 flex justify-center">
   <div className=" md:w-10/12 mx-auto px-6 grid sm:grid-cols-2 md:gap-4 lg:gap-8 items-center">
     
     {/* Left Section - About Text */}

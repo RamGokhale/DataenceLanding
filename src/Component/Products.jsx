@@ -5,7 +5,7 @@ import scripta from "../assets/scripta.png";
 
 const Products = () => {
   return (
-    <div className='mb-32'>
+    <div id="product" className='mb-32'>
        <div className="flex flex-col justify-center items-center py-12  mb-8">
         <div className=" font-[poppins] font-semibold text-2xl  text-center text-[#253E52] pt-10 pb-3">
           Explore Our Digital Products

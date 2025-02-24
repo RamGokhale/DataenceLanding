@@ -6,6 +6,19 @@ import facebook from "../assets/facebook.png"
 import phone from "../assets/phone.png"
 import { Link } from "react-router-dom"
 
+
+// Function to handle smooth scrolling
+const scrollToSection = (event, sectionId) => {
+  event.preventDefault();
+  const section = document.getElementById(sectionId);
+  if (section) {
+    window.scrollTo({
+      top: section.offsetTop - 80, // Adjust based on your navbar height
+      behavior: "smooth",
+    });
+  }
+};
+
 const Footer = ()  =>{
     return (
    <>
@@ -35,8 +48,10 @@ const Footer = ()  =>{
         <div className="space-y-3">
           <h3 className="text-white font-semibold py-2">Company</h3>
           <ul className="text-gray-400 text-sm mt-2 space-y-2">
-            <li className="cursor-pointer hover:text-white md:py-2.5">About Us</li>
-            <li className="cursor-pointer hover:text-white md:py-4">Contact Us</li>
+            <li className="cursor-pointer hover:text-white md:py-2.5
+            "   onClick={(event) => scrollToSection(event, "about")}>About Us</li>
+            <li className="cursor-pointer hover:text-white md:py-4"
+              onClick={(event) => scrollToSection(event, "contact")}>Contact Us</li>
           </ul>
         </div>
 
@@ -44,9 +59,10 @@ const Footer = ()  =>{
         <div className="space-y-3 ">
           <h3 className="text-white font-semibold py-1.5">Services</h3>
           <ul className="text-gray-400 text-sm mt-2 space-y-2">
-            <li className="cursor-pointer hover:text-white sm:py-2.5">Products</li>
+            <li className="cursor-pointer hover:text-white sm:py-2.5"
+             onClick={(event) => scrollToSection(event, "product")} >Products</li>
             <li className="cursor-pointer hover:text-white sm:py-3.5">
-              <Link to='/privacy-policy' >Privacy Policy</Link>
+              <Link to='/privacy-policy' onClick={()=> window.scrollTo(0,0)}>Privacy Policy</Link>
             </li>
           </ul>
         </div>
