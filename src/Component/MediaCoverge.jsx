@@ -18,7 +18,7 @@ const MediaCoverge = () =>{
 
   {/* Description Section */}
   <div className="w-full bg-[#D9D9D933] xl:py-16  xl:px-50 lg:px-39 md:px-28 md:pt-34 pb-8    rounded-xl text-left relative md:bottom-36 bottom-18 px-6">
-    <h2 className="text-[#E3501F] font-semibold xl:text-xl lg:text-[15px] md:text-[13px] xl:mt-26 lg:mt-8 my-5 mb-8 mt-24"> 
+    <h2 className="text-[#E3501F] font-semibold xl:text-xl lg:text-[15px] md:text-[13px] xl:mt-26 md:mt-8 my-5 mb-8 mt-24"> 
       Datence Technologies recognised by DD News at IMC 2024 while presenting ABYD
     </h2>
     <p className="font-light text-gray-600/70 mt-4 xl:text-lg lg:text-[12px]  md:text-[10px] text-sm text-justify pb-10">

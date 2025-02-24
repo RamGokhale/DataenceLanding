@@ -33,7 +33,7 @@ const Crousel = () => {
             640: {
               slidesPerView: 3, // Show 2 slides for tablets
             },
-            770: {
+            1024: {
               slidesPerView: 4, // Show 2 slides for tablets
             },
            

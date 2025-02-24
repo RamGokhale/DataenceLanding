@@ -22,7 +22,7 @@ const Navbar = () => {
     const section = document.getElementById(sectionId);
     if (section) {
       window.scrollTo({
-        top: section.offsetTop - 80, // Adjust for fixed navbar
+        top: section.offsetTop - 20 , // Adjust for fixed navbar
         behavior: "smooth",
       });
       setIsOpen(false); // Close mobile menu after click
@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar Section */}
-      <nav className="bg-white lg:px-20 py-6 md:px-12 sm:px-10 px-8 relative">
+      <nav className="bg-white lg:px-20 py-6 md:px-12 sm:px-10 px-8 relative ">
         <div className="flex items-center justify-between">
           {/* Logo Section */}
           <div>
