@@ -4,18 +4,18 @@ import policy from '../assets/policy.png'
 const PrivacyPolicy = () => {
   return (
     <div className='w-full sm:px-9 px-5 py-4'>
-      <div className='w-full sm:w-11/12 mx-auto bg-[#E2F4FE] flex items-center justify-between rounded-4xl font-[poppins] pt-10'>
+      <div className='w-full sm:w-11/12 mx-auto bg-[#E2F4FE] flex items-center justify-between rounded-4xl font-[poppins] pt-10 relative'>
         <div className='w-full pr-10 md:pr-0 md:w-1/2 lg:pl-16 pl-10 pb-10'>
             <h1 className='text-3xl font-semibold text-black/80'>Privacy Policy</h1>
             <div className='text-[#787878]/90 mt-10'>
-                Welcome to Detance. Your privacy is important to us, and <br className='hidden md:block'  />
-                we are committed to protecting your personal data. This <br className='hidden md:block'  />
-                Privacy Policy explains how we collect, use, and safeguard <br className='hidden md:block'  />
+                Welcome to Detance. Your privacy is important to us, and <br className='hidden xl:block'  />
+                we are committed to protecting your personal data. This <br className='hidden xl:block'  />
+                Privacy Policy explains how we collect, use, and safeguard <br className='hidden xl:block'  />
                 your information when you use our website and services.
             </div>
         </div>
         <div className='w-1/2 pr-16 hidden md:block'> 
-            <img src={policy} alt="policy" className='' />
+            <img src={policy} alt="policy" className='object-contain ' />
         </div>
       </div>
 

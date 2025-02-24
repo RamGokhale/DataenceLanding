@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <>
  <div className="w-full bg-[#a4d5f270] py-10 flex justify-center">
-  <div className="w-full max-w-6xl mx-auto px-6 md:grid md:grid-cols-2 gap-8 items-center">
+  <div className=" md:w-10/12 mx-auto px-6 grid sm:grid-cols-2 md:gap-4 lg:gap-8 items-center">
     
     {/* Left Section - About Text */}
     <div className="font-[poppins]">
@@ -23,7 +23,7 @@ const AboutUs = () => {
     </div>
 
     {/* Right Section - Image */}
-    <div className="sm:flex justify-center md:justify-end hidden md:block">
+    <div className="sm:flex justify-center md:justify-end hidden ">
       <img 
         src={about} 
         className="w-full max-w-[26rem] md:max-w-[28rem] object-contain" 
